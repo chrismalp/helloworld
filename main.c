@@ -6,6 +6,7 @@ void myfunction ( void ) {
 }
 
 int main(int argc, char* argv[]) {
-	printf("Hello World!   ver 1.0.0.0\n");
+	printf("Hello World!   ver 1.1.0.0\n");
+        myfunction();
 	return 0;
 }
