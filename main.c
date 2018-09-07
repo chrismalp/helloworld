@@ -6,9 +6,14 @@ void myfunction ( void ) {
 }
 
 
-/* *** */
+int yourfunction ( void ) {
+	printf ("Your Function!!!\n");
+	return 0;
+}
+
 int main(int argc, char* argv[]) {
-	printf("Hello World!   ver 1.3.0.1\n");
+	printf("Hello World!   ver 1.4.0.1\n");
+        yourfunction();
         myfunction();
 	return 0;
 }

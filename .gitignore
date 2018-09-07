@@ -1,3 +1,5 @@
-build/
+.dep.inc
+build/ 
 dist/
 nbproject/private/
+
